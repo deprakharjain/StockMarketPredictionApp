@@ -19,6 +19,6 @@ def predict():
     result=model.predict(input_query)[0]
 
     # result={'Open':Open,'Low':Low,'High':High,'Volume':Volume}
-    return jsonify(result)
+    return jsonify({'closing':result})
 if __name__=='__main__':
     app.run(debug=True)
