@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Stock Market Predictor"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/Open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cookie"
+        android:hint="Open"></EditText>
+
+    <EditText
+        android:id="@+id/Low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cookie"
+        android:hint="Low"></EditText>
+
+    <EditText
+        android:id="@+id/High"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cookie"
+        android:hint="High"></EditText>
+
+    <EditText
+        android:id="@+id/Volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cookie"
+        android:hint="Volume"></EditText>
+
+    <Button
+        android:id="@+id/Predict"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:background="@drawable/textview_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/aladin"
+        android:text="Closing Price"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Shrey"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Prakhar Jain"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Rishabh Kumar Singh"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"></TextView>
+
+
+</LinearLayout>
